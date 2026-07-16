@@ -2,7 +2,7 @@ FROM cgr.dev/chainguard/nginx:latest
 
 COPY index.html /usr/share/nginx/html/index.html
 
-USER 65532
+
 
 EXPOSE 8080
 
